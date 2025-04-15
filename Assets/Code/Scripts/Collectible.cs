@@ -39,12 +39,18 @@ public class Collectible : MonoBehaviour
 #endif
 
     private void OnTriggerEnter(Collider other)
+{
+    if (other.CompareTag("Player"))
     {
-        if (other.CompareTag("Player"))
+        if (ScoreManager.Instance != null)
         {
-            Destroy(gameObject);
+            ScoreManager.Instance.AddScore(1);
         }
+
+        Destroy(gameObject);
     }
+}
+
 }
 
 
