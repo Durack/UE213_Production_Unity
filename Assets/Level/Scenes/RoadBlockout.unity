@@ -25239,10 +25239,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.75
       objectReference: {fileID: 0}
+    - target: {fileID: 3102713470855998563, guid: 1ee1b3591b96f794896cb10fb0661add,
+        type: 3}
+      propertyPath: m_Time
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102713470855998563, guid: 1ee1b3591b96f794896cb10fb0661add,
+        type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 4179089906214485128, guid: 1ee1b3591b96f794896cb10fb0661add,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8540769613248934796, guid: 1ee1b3591b96f794896cb10fb0661add,
+        type: 3}
+      propertyPath: m_Time
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8540769613248934796, guid: 1ee1b3591b96f794896cb10fb0661add,
+        type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60186,7 +60206,7 @@ MonoBehaviour:
   speed: 2
   widthOffset: 1
   offsetSpeed: 3
-  heightOffset: 0.15
+  heightOffset: 0.5
   vehiculeRotation: {x: 180, y: 90, z: -90}
   startFromEnd: 0
 --- !u!82 &2007575399
