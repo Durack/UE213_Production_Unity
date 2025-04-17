@@ -59,6 +59,12 @@ namespace PathCreation.Examples
             }
         }
 
+        void InputSystem_Actions.IVehicleActions.OnTestInput(InputAction.CallbackContext context)
+        {
+            ParticleScript script = GetComponent<ParticleScript>();
+            script.particle.Play();
+        }
+
         void Start()
         {
             currentOffset = offset;

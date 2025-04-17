@@ -42,11 +42,20 @@ public class Collectible : MonoBehaviour
 {
     if (other.CompareTag("Player"))
     {
+        // Play particle effect on player
+        ParticleScript particleScript = other.GetComponent<ParticleScript>();
+        if (particleScript != null)
+        {
+            particleScript.PlayParticle();
+        }
+
+        // Add score
         if (ScoreManager.Instance != null)
         {
             ScoreManager.Instance.AddScore(1);
         }
 
+        // Destroy collectible
         Destroy(gameObject);
     }
 }

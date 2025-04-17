@@ -31,4 +31,5 @@ public class InputInteractions : MonoBehaviour
         float tempOffset = pathFollower.offset + pathFollower.widthOffset;
         pathFollower.offset = Mathf.Min(tempOffset, pathFollower.widthOffset);
     }
+    
 }
