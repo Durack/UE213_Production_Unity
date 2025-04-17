@@ -104,6 +104,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 5
   offset: 0
+  rotation: {x: 0, y: 0, z: -3.68}
 --- !u!65 &6246166582476753620
 BoxCollider:
   m_ObjectHideFlags: 0

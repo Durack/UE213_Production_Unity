@@ -8,6 +8,8 @@ public class Collectible : MonoBehaviour
     public Int32 beat;
     public float offset;
 
+    public Vector3 rotation;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
