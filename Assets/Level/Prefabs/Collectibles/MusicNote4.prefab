@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1189635216759301329}
   - component: {fileID: 5688523177846397474}
   - component: {fileID: 8352690537476757578}
-  - component: {fileID: 6246166582476753620}
+  - component: {fileID: 7053703966464548838}
   m_Layer: 0
-  m_Name: Cube(Clone) (148)
+  m_Name: MusicNote4
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7234195992034273910}
   serializedVersion: 2
   m_LocalRotation: {x: 0.23530531, y: -0.4331857, z: 0.09192868, w: 0.86517674}
-  m_LocalPosition: {x: 35.383255, y: 0.2524252, z: 44.119568}
+  m_LocalPosition: {x: 65.323, y: 6.623, z: 52.02}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7234195992034273910}
-  m_Mesh: {fileID: 4640264413325950770, guid: 6ebb2841b60867c40b03bae32f1015cc, type: 3}
+  m_Mesh: {fileID: 2328630906186624815, guid: e7596e41925c5a540853922b3e5c5097, type: 3}
 --- !u!23 &5688523177846397474
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -100,11 +100,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c070fa7eaf417a4682b5c3b0177a9d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 4
   heightOffset: 0.15
   beat: 5
   offset: 0
---- !u!65 &6246166582476753620
+--- !u!65 &7053703966464548838
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,5 +123,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.18598752, y: 0.6661073, z: 0.73970985}
-  m_Center: {x: 0.014962115, y: -0.030282693, z: 0.10883446}
+  m_Size: {x: 0.08672293, y: 1.1620449, z: 0.8272544}
+  m_Center: {x: 0.023699936, y: -0.0066398378, z: 0.03463581}

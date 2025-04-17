@@ -55,5 +55,10 @@ public class Collectible : MonoBehaviour
 
 
 public enum CollectibleType { 
-    Cube
+    Cube,
+    MusicNote1,
+    MusicNote2,
+    MusicNote3,
+    MusicNote4
+
 };
