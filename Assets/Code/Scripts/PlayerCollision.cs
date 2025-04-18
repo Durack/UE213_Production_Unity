@@ -3,9 +3,16 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     private bool isShielded = false;
-    public GameObject shieldVisual; // Drag & drop the shield (child of Car) in Inspector
 
-    //===============================================================================================
+    public GameObject shieldVisual; // Not used anymore for visuals
+    private ParticleScript particleScript;
+
+    private void Start()
+    {
+        // Get the reference once
+        particleScript = GetComponent<ParticleScript>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Obstacle"))
@@ -13,9 +20,15 @@ public class PlayerCollision : MonoBehaviour
             if (isShielded)
             {
                 Debug.Log("Shield protected from obstacle!");
+
+                // Play damage particles even if shielded (optional)
+                particleScript?.PlayDamageParticle();
             }
             else
             {
+                // Play damage sparks
+                particleScript?.PlayDamageParticle();
+
                 if (ScoreManager.Instance != null)
                 {
                     ScoreManager.Instance.ResetCombo();
@@ -24,24 +37,23 @@ public class PlayerCollision : MonoBehaviour
                 Debug.Log("Hit obstacle!");
             }
 
-            Destroy(other.gameObject);
+            // Delay destroy so particle can play (optional: tweak delay to match particle)
+            Destroy(other.gameObject, 0.1f);
         }
 
         else if (other.CompareTag("ShieldBuff"))
         {
+            // Play shield particle
+            particleScript?.PlayShieldParticle();
+
             ActivateShield();
-            Destroy(other.gameObject);
+            Destroy(other.gameObject, 0.1f);
         }
     }
-    //===============================================================================================
 
     private void ActivateShield()
     {
-        if (shieldVisual != null)
-        {
-            shieldVisual.GetComponent<MeshRenderer>().enabled = true;
-        }
-
+        // Don't show mesh, just activate effect
         isShielded = true;
         Debug.Log("Shield activated!");
 
@@ -51,12 +63,6 @@ public class PlayerCollision : MonoBehaviour
     private void DeactivateShield()
     {
         isShielded = false;
-
-        if (shieldVisual != null)
-        {
-            shieldVisual.GetComponent<MeshRenderer>().enabled = false;
-        }
-
         Debug.Log("Shield deactivated.");
     }
 }

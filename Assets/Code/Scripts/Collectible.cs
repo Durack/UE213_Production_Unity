@@ -48,7 +48,7 @@ public class Collectible : MonoBehaviour
         ParticleScript particleScript = other.GetComponent<ParticleScript>();
         if (particleScript != null)
         {
-            particleScript.PlayParticle();
+            particleScript.PlayCollectibleParticle();
         }
 
         // Add score
