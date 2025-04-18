@@ -1,10 +1,17 @@
 using UnityEngine;
 using TMPro; // TextMeshPro UI element
+using UnityEngine.SceneManagement;
 
 public class FinishLine : MonoBehaviour
 {
     public GameObject scorePanel; // UI panel to show score
     public TMP_Text scoreText; // Drag a TMP_Text here in Inspector (or use UnityEngine.UI.Text if not using TextMeshPro)
+
+    public void RestartLevel()
+    {
+        Time.timeScale = 1f; // Resume the game in case it was paused
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reloads the current scene
+    }
 
     private void OnTriggerEnter(Collider other)
     {
