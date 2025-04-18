@@ -33,7 +33,7 @@ public class LeaderboardManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Keeps this across scene reloads
+            DontDestroyOnLoad(gameObject); // Keeps when scene reloads
             LoadLeaderboard();
         }
         else

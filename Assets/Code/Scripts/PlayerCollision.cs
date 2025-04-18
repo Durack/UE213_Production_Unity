@@ -4,12 +4,11 @@ public class PlayerCollision : MonoBehaviour
 {
     private bool isShielded = false;
 
-    public GameObject shieldVisual; // Not used anymore for visuals
+    public GameObject shieldVisual; // Not used anymore
     private ParticleScript particleScript;
 
     private void Start()
     {
-        // Get the reference once
         particleScript = GetComponent<ParticleScript>();
     }
 
@@ -21,7 +20,7 @@ public class PlayerCollision : MonoBehaviour
             {
                 Debug.Log("Shield protected from obstacle!");
 
-                // Play damage particles even if shielded (optional)
+                // Play damage particles even if shielded
                 particleScript?.PlayDamageParticle();
             }
             else
@@ -37,7 +36,7 @@ public class PlayerCollision : MonoBehaviour
                 Debug.Log("Hit obstacle!");
             }
 
-            // Delay destroy so particle can play (optional: tweak delay to match particle)
+            // Delay destroy so particle can play
             Destroy(other.gameObject, 0.1f);
         }
 
@@ -53,9 +52,9 @@ public class PlayerCollision : MonoBehaviour
 
     private void ActivateShield()
     {
-        // Don't show mesh, just activate effect
+        // Don't show mesh
         isShielded = true;
-        Debug.Log("Shield activated!");
+
 
         Invoke("DeactivateShield", 10f);
     }
@@ -63,6 +62,6 @@ public class PlayerCollision : MonoBehaviour
     private void DeactivateShield()
     {
         isShielded = false;
-        Debug.Log("Shield deactivated.");
+
     }
 }

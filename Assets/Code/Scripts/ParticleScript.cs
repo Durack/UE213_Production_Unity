@@ -3,9 +3,9 @@ using UnityEngine;
 public class ParticleScript : MonoBehaviour
 {
     [Header("Particles")]
-    [SerializeField] public ParticleSystem collectibleParticle; // already working
+    [SerializeField] public ParticleSystem collectibleParticle; // notes
     [SerializeField] public ParticleSystem dmgParticle;         // sparks
-    [SerializeField] public ParticleSystem shieldParticle;      // clean shield fx
+    [SerializeField] public ParticleSystem shieldParticle;      // shield
 
     public void PlayCollectibleParticle()
     {

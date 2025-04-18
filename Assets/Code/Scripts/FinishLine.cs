@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 public class FinishLine : MonoBehaviour
 {
     public GameObject scorePanel; // UI panel to show score
-    public TMP_Text scoreText; // Drag a TMP_Text here in Inspector (or use UnityEngine.UI.Text if not using TextMeshPro)
+    public TMP_Text scoreText; // Drag a TMP_Text 
 
     public void RestartLevel()
     {
-        Time.timeScale = 1f; // Resume the game in case it was paused
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reloads the current scene
+        Time.timeScale = 1f; // Resume the game
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload scene
     }
 
     private void OnTriggerEnter(Collider other)

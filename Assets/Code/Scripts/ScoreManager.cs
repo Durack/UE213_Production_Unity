@@ -65,7 +65,7 @@ public class ScoreManager : MonoBehaviour
 
     private void UpdateUI()
     {
-        scoreText.text = "Score: " + score;
-        comboText.text = "Combo: x" + comboMultiplier.ToString("0.0");
+        scoreText.text = "" + score;
+        comboText.text = "X" + comboMultiplier.ToString("0.0");
     }
 }
