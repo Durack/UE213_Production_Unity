@@ -16,6 +16,7 @@ public class FinishLine : MonoBehaviour
             {
                 pathFollower.speed = 0f;
                 pathFollower.DisableInput();
+                Time.timeScale = 0f;
             }
 
             // Show score panel
