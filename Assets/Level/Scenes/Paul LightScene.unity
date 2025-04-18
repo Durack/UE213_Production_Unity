@@ -378,6 +378,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 165
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &13669195
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -503,6 +504,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 201
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &14728501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -652,6 +654,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2140542793685378436, guid: 327d43a856ea1354e8393b8a3a2c4778,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f5711745dd1c9ad4095c1c3ae446dcbf, type: 2}
+    - target: {fileID: 2815850217894338969, guid: 327d43a856ea1354e8393b8a3a2c4778,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f5711745dd1c9ad4095c1c3ae446dcbf, type: 2}
     - target: {fileID: 3816463909880392356, guid: 327d43a856ea1354e8393b8a3a2c4778,
         type: 3}
       propertyPath: m_Name
@@ -807,6 +819,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 187
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &22787819
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -938,6 +951,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 83
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &26219852
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1230,6 +1244,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 208
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &34585995
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1574,6 +1589,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 78
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &46378407
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1699,6 +1715,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 166
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &46452419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1824,6 +1841,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 108
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &55224002
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1949,6 +1967,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 267
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &55939064
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2074,6 +2093,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 101
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &57581911
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2226,6 +2246,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 200
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &59325010
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2351,6 +2372,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 39
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &61582377
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2564,6 +2586,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 41
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &71207449
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2689,6 +2712,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 209
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &77284207
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2814,6 +2838,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 58
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &78743570
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2939,6 +2964,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 275
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &82223121
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3163,6 +3189,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 215
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &89372763
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3288,6 +3315,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 231
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &93676006
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3413,6 +3441,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 234
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &95863980
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3544,6 +3573,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 14
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &102122210
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3669,6 +3699,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 123
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &107200208
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3794,6 +3825,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 111
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &115390647
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3919,6 +3951,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 24
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &115990177
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4044,6 +4077,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 69
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &118172164
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4175,6 +4209,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 112
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &118512337
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4300,6 +4335,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 37
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &119839145
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4425,6 +4461,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 68
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &124023674
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4550,6 +4587,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 117
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &125484443
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4675,6 +4713,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 205
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &138507623
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4911,6 +4950,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 265
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &163598042
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5124,6 +5164,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 177
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &170753955
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5337,6 +5378,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 273
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &191342802
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5567,6 +5609,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 9
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &204987563
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5692,6 +5735,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 46
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &206367880
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5823,6 +5867,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 38
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &216545923
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5948,6 +5993,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 82
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &217380402
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6085,6 +6131,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 28
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &228354731
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6397,6 +6444,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 193
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &246975905
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6522,6 +6570,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 34
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &249717977
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6740,6 +6789,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 254
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &253003225
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6865,6 +6915,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 274
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &253105426
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6990,6 +7041,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 297
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &257067444
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7115,6 +7167,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 228
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &258885959
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7339,6 +7392,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 258
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &267009117
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7557,6 +7611,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 261
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &270891574
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7682,6 +7737,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 49
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &282034847
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7807,6 +7863,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 143
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &282992713
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7932,6 +7989,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 73
   offset: 0.05
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &283739308
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8156,6 +8214,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 154
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &302285804
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8281,6 +8340,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 72
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &303731260
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8406,6 +8466,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 173
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &308168069
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8531,6 +8592,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 225
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &312794504
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8656,6 +8718,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 161
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &314759988
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8787,6 +8850,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 162
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &325192683
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12440,6 +12504,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 182
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &328539520
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15850,6 +15915,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 263
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &347062075
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16072,6 +16138,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 29
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &373799699
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16296,6 +16363,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 237
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &383541116
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16421,6 +16489,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 52
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &389088332
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16634,6 +16703,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 158
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &397207659
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16759,6 +16829,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 85
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &400438337
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16884,6 +16955,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 106
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &423893013
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17009,6 +17081,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 19
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &425303868
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17431,6 +17504,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 92
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &445613711
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17556,6 +17630,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 262
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &454570365
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17681,6 +17756,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 53
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &457037105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17806,6 +17882,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 160
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &457387510
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17931,6 +18008,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 152
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &460560461
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18161,6 +18239,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 226
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &466235215
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18286,6 +18365,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 259
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &482152181
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18411,6 +18491,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 242
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &482965268
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18536,6 +18617,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 156
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &484602850
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18661,6 +18743,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 167
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &484792986
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18786,6 +18869,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 32
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &486594591
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18911,6 +18995,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 91
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &488256006
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19124,6 +19209,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 184
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &500923696
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19249,6 +19335,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 153
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &502759161
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19374,6 +19461,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 277
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &505328771
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19499,6 +19587,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 27
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &516831508
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19624,6 +19713,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 87
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &517421373
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19842,6 +19932,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 202
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &523315474
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20061,6 +20152,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 159
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &534540021
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20378,6 +20470,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 132
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &561407471
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20503,6 +20596,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 102
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &562689363
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20628,6 +20722,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 229
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &567976769
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20753,6 +20848,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 299
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &569978507
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20878,6 +20974,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 48
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &575688075
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21003,6 +21100,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 217
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &578458581
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21233,6 +21331,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 196
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &590256842
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21358,6 +21457,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 70
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &592450275
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21483,6 +21583,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 135
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &593891347
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21707,6 +21808,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 128
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &600240138
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22018,6 +22120,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 145
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &606800521
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22143,6 +22246,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 245
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &614156312
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22268,6 +22372,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 164
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &616895704
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22393,6 +22498,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 98
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &635272528
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22524,6 +22630,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 238
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &638899966
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22649,6 +22756,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 84
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &640285366
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22774,6 +22882,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 264
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &642079289
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22899,6 +23008,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 63
   offset: 0.84
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &652076222
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23030,6 +23140,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 221
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &659490503
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23341,6 +23452,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 89
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &684184569
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23652,6 +23764,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 80
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &699231831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23777,6 +23890,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 130
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &701264562
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23902,6 +24016,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 79
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &702736639
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24126,6 +24241,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 60
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &709673402
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24251,6 +24367,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 204
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &714732077
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24376,6 +24493,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 113
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &716546715
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24501,6 +24619,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 141
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &726105571
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24731,6 +24850,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 175
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &732819311
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24856,6 +24976,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 220
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &738288108
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25012,6 +25133,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 138
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &744349640
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25137,6 +25259,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 298
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &751852883
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25350,6 +25473,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 36
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &757610856
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25475,6 +25599,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 300
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &761387033
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25612,6 +25737,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 26
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &769492974
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25737,6 +25863,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 74
   offset: 0.05
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &779228337
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25862,6 +25989,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 140
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &794278837
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26086,6 +26214,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 302
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &808738296
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26211,6 +26340,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 287
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &813861151
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26336,6 +26466,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 199
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &818779688
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26461,6 +26592,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 49
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &819186036
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26586,6 +26718,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 181
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &820380985
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26892,6 +27025,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 212
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &825681031
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27116,6 +27250,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 171
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &828960095
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27241,6 +27376,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 57
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &837454343
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27366,6 +27502,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 17
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &842077803
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27491,6 +27628,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 268
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &846193044
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27616,6 +27754,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 131
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &847506912
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27768,6 +27907,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 190
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &863887037
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27893,6 +28033,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 296
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &867175605
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28018,6 +28159,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 257
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &883237760
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28143,6 +28285,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 118
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &887303533
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28361,6 +28504,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 195
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &893496381
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28579,6 +28723,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 172
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &904227662
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29009,6 +29154,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 10
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &948136415
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29321,6 +29467,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 67
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &957204559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29446,6 +29593,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 94
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &958168662
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29583,6 +29731,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 243
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &971055918
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29708,6 +29857,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 56
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &974570180
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29927,6 +30077,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 100
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &986949059
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30173,6 +30324,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 22
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &996744029
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30298,6 +30450,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 11
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1009708633
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30516,6 +30669,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 232
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1011763690
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30647,6 +30801,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 139
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1013249561
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30778,6 +30933,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 197
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1026507148
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30903,6 +31059,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 51
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1029443269
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31028,6 +31185,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 6
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1042934314
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31153,6 +31311,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 289
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1043840165
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31417,6 +31576,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 249
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1056468011
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31648,6 +31808,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 253
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1075542435
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31891,6 +32052,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 280
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1095321173
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32028,6 +32190,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 13
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1106342063
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32243,6 +32406,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 126
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1108124260
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32642,6 +32806,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 25
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1132074100
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33083,6 +33248,7 @@ MonoBehaviour:
   spawnGroupSize: 2
   beatsBetweenGroup: 2
   beatsBeforeSpawning: 7
+  tmp: {x: 0, y: 0, z: 0}
   fileName: Thyronpath
 --- !u!114 &1148461121
 MonoBehaviour:
@@ -33172,6 +33338,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 125
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1150636589
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33303,6 +33470,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 107
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1156371772
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33440,6 +33608,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 211
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1193549171
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33565,6 +33734,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 93
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1194205473
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33690,6 +33860,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 244
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1194400757
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33815,6 +33986,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 7
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1201723190
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33995,6 +34167,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 191
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1239199431
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34120,6 +34293,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 144
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1242976186
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34245,6 +34419,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 137
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1249557758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34458,6 +34633,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 177
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1251844132
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34583,6 +34759,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 97
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1267780352
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34720,6 +34897,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 252
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1281429265
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34933,6 +35111,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 50
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1289075610
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35318,6 +35497,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 214
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1310894567
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35531,6 +35711,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 42
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1322103278
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35750,6 +35931,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 121
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1334035997
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35875,6 +36057,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 66
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1343481150
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36000,6 +36183,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 33
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1349921708
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36125,6 +36309,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 267
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1354344825
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36250,6 +36435,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 251
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1363310750
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36375,6 +36561,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 271
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1374054998
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36599,6 +36786,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 99
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1397699745
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36724,6 +36912,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 142
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1398076416
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37053,6 +37242,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 16
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1407432649
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37271,6 +37461,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 276
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1417282047
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37396,6 +37587,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 192
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1420540215
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37521,6 +37713,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 294
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1423007260
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37646,6 +37839,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 44
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1423667961
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37777,6 +37971,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 227
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1426414968
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37902,6 +38097,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 163
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1429898096
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38027,6 +38223,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 180
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1432428611
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38152,6 +38349,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 186
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1432709755
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38277,6 +38475,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 255
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1436765297
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38402,6 +38601,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 179
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1437485071
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38620,6 +38820,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 115
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1444420167
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38745,6 +38946,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 127
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1449012849
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38870,6 +39072,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 206
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1453323460
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38995,6 +39198,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 250
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1470972067
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39126,6 +39330,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 5
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1471250149
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39251,6 +39456,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 284
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1483319806
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39382,6 +39588,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 136
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1491209275
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39507,6 +39714,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 269
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1492144099
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39905,6 +40113,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 266
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1501673210
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40030,6 +40239,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 193
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1503118535
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40243,6 +40453,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 246
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1509924444
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40368,6 +40579,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 146
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1514975044
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40493,6 +40705,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 64
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1530768845
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40711,6 +40924,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 283
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1538835612
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40842,6 +41056,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 222
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1542029639
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40973,6 +41188,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 188
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1544430541
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41191,6 +41407,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 278
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1548277064
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41280,6 +41497,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 173
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!65 &1552477273
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41453,6 +41671,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 174
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1566170484
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41578,6 +41797,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 149
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1566867375
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41709,6 +41929,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 90
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1571056273
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41922,6 +42143,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 210
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1596822752
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42047,6 +42269,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 62
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1598903419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42172,6 +42395,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 272
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1613842581
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42396,6 +42620,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 285
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1615336677
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42521,6 +42746,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 304
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1616144663
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42734,6 +42960,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 47
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1627094224
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42859,6 +43086,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 194
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1628409027
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42984,6 +43212,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 292
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1640055325
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43220,6 +43449,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 169
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1658252589
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43345,6 +43575,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 239
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1659651961
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43563,6 +43794,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 59
   offset: 0.97
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1669140827
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43688,6 +43920,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 185
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1670616575
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43813,6 +44046,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 88
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1677817689
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43938,6 +44172,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 216
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1691576095
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44069,6 +44304,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 207
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1697060816
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44282,6 +44518,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 71
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1704838922
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44599,6 +44836,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 223
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1720928548
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44910,6 +45148,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 230
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1726105895
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45035,6 +45274,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 295
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1731662799
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45259,6 +45499,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 124
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1745461303
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45701,6 +45942,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 122
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1757110831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45947,6 +46189,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 23
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1761636845
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46171,6 +46414,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 129
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1767223254
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46296,6 +46540,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 61
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1772679026
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46421,6 +46666,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 81
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1785545813
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46733,6 +46979,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 151
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1799994093
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46864,6 +47111,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 134
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1806509028
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46989,6 +47237,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 77
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1809196549
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47114,6 +47363,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 30
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1817585650
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47239,6 +47489,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 183
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1817600324
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47398,6 +47649,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 75
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1827614873
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47523,6 +47775,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 157
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1828544505
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47648,6 +47901,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 224
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1832242269
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47773,6 +48027,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 176
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1834238869
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47898,6 +48153,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 45
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1839522737
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48023,6 +48279,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 116
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1848507299
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48154,6 +48411,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 301
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1849571380
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48279,6 +48537,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 270
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1852291849
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48410,6 +48669,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 155
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1859371817
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48809,6 +49069,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 218
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1872047947
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48934,6 +49195,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 43
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1878879966
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49059,6 +49321,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 109
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1891040001
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49184,6 +49447,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 236
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1899123939
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49309,6 +49573,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 235
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1902469735
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49434,6 +49699,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 170
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1903631406
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49559,6 +49825,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 31
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1905205706
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49865,6 +50132,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 260
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1915186705
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49990,6 +50258,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 119
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1932866610
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50203,6 +50472,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 76
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1935549932
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50328,6 +50598,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 219
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1940325305
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50453,6 +50724,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 21
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1941714851
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50578,6 +50850,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 96
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1956027674
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50703,6 +50976,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 103
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1970602008
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50828,6 +51102,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 55
   offset: 1.03
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1981539657
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51046,6 +51321,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 12
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1989190999
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51171,6 +51447,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 241
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1992310932
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51422,6 +51699,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 104
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1993542445
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51547,6 +51825,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 110
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &1997557654
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51672,6 +51951,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 95
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2003129124
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51797,6 +52077,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 105
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2007028311
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51922,6 +52203,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 40
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2008730473
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52047,6 +52329,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 203
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2010972781
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52172,6 +52455,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 86
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2013945786
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52297,6 +52581,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 282
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2015777038
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52422,6 +52707,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 65
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2019068575
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52875,6 +53161,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 114
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2029075999
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53099,6 +53386,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 189
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2036558130
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53230,6 +53518,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 303
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2045685597
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53355,6 +53644,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 247
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2049250710
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53480,6 +53770,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 291
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2051365868
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53605,6 +53896,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 20
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2051682609
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53730,6 +54022,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 198
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2061273215
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53861,6 +54154,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 148
   offset: 1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2067968552
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -54091,6 +54385,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 248
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2084326806
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -54304,6 +54599,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 147
   offset: 0
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2088029401
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -54561,6 +54857,7 @@ MonoBehaviour:
   heightOffset: 0.15
   beat: 54
   offset: -1
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!23 &2120413812
 MeshRenderer:
   m_ObjectHideFlags: 0
