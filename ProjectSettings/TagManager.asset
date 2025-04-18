@@ -7,6 +7,7 @@ TagManager:
   - Collectible
   - Obstacle
   - ShieldBuff
+  - finish
   layers:
   - Default
   - TransparentFX
