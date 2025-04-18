@@ -151,7 +151,7 @@ public class CollectibleCreator : MonoBehaviour
             if (collectibleBase != null)
             {
                 GameObject collectible = Instantiate(collectibleBase, spawnPosition, spawnRotation);
-                collectible.transform.localScale = collectibleData.scale * 2f;
+                collectible.transform.localScale = collectibleData.scale / 2f;
                 collectible.transform.position = pathCreator.path.GetPointAtDistance(distance, vehicleData.endOfPathInstruction) + (collectible.transform.right * collectibleData.offset) + (collectible.transform.up * collectibleData.heightOffset);
                 collectible.transform.rotation = Quaternion.Euler(collectibleData.rotation);
                 collectible.transform.parent = transform;
@@ -223,7 +223,7 @@ public class CollectibleCreator : MonoBehaviour
                 Quaternion spawnRotation = pathCreator.path.GetRotationAtDistance(distance, currentVehicle.endOfPathInstruction) * Quaternion.Euler(0, 0, 90);
 
                 GameObject cube = Instantiate(prefab, spawnPosition, spawnRotation);
-                cube.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f) * 2f;
+                cube.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f) / 2f;
                 cube.transform.position = pathCreator.path.GetPointAtDistance(distance, currentVehicle.endOfPathInstruction) + (cube.transform.right * spawnOffset) + (cube.transform.up * collectible.heightOffset);
                 cube.transform.parent = transform;
 
