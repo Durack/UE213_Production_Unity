@@ -3,6 +3,7 @@ using PathCreation.Examples;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using Unity.Mathematics;
 using UnityEditor;
 using UnityEngine;
 using static CollectibleCreator;
@@ -19,6 +20,8 @@ public class CollectibleCreator : MonoBehaviour
     public Int32 spawnGroupSize;
     public Int32 beatsBetweenGroup;
     public Int32 beatsBeforeSpawning;
+
+    public Vector3 tmp;
 
     // Saves Manager
     public string fileName;
@@ -53,7 +56,8 @@ public class CollectibleCreator : MonoBehaviour
                     beat = collectible.beat,
                     offset = collectible.offset,
                     heightOffset = collectible.heightOffset,
-                    scale = collectible.transform.localScale
+                    scale = collectible.transform.localScale,
+                    rotation = collectible.transform.eulerAngles
                 };
 
                 saveObject.collectibles.Add(item);
@@ -138,6 +142,7 @@ public class CollectibleCreator : MonoBehaviour
             Debug.Log(distance);
             // Spawn the collectible
             Vector3 spawnPosition = new Vector3();
+
             Quaternion spawnRotation = pathCreator.path.GetRotationAtDistance(distance, vehicleData.endOfPathInstruction) * Quaternion.Euler(0, 0, 90);
 
             GameObject collectibleBase;
@@ -146,8 +151,9 @@ public class CollectibleCreator : MonoBehaviour
             if (collectibleBase != null)
             {
                 GameObject collectible = Instantiate(collectibleBase, spawnPosition, spawnRotation);
-                collectible.transform.localScale = collectibleData.scale;
+                collectible.transform.localScale = collectibleData.scale / 2f;
                 collectible.transform.position = pathCreator.path.GetPointAtDistance(distance, vehicleData.endOfPathInstruction) + (collectible.transform.right * collectibleData.offset) + (collectible.transform.up * collectibleData.heightOffset);
+                collectible.transform.rotation = Quaternion.Euler(collectibleData.rotation);
                 collectible.transform.parent = transform;
 
                 Collectible collectibleScript = collectible.GetComponent<Collectible>();
@@ -158,6 +164,8 @@ public class CollectibleCreator : MonoBehaviour
                     collectibleScript.heightOffset = collectibleData.heightOffset;
                     collectibleScript.beat = collectibleData.beat;
                     collectibleScript.offset = collectibleData.offset;
+                    //collectible.transform.localRotation = pathCreator.path.GetRotationAtDistance(distance,vehicleData.endOfPathInstruction) * Quaternion.Euler(tmp);
+
                 }
             }
 
@@ -215,16 +223,17 @@ public class CollectibleCreator : MonoBehaviour
                 Quaternion spawnRotation = pathCreator.path.GetRotationAtDistance(distance, currentVehicle.endOfPathInstruction) * Quaternion.Euler(0, 0, 90);
 
                 GameObject cube = Instantiate(prefab, spawnPosition, spawnRotation);
-                cube.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+                cube.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f) / 2f;
                 cube.transform.position = pathCreator.path.GetPointAtDistance(distance, currentVehicle.endOfPathInstruction) + (cube.transform.right * spawnOffset) + (cube.transform.up * collectible.heightOffset);
                 cube.transform.parent = transform;
 
-                Collectible cubeCollectible = cube.GetComponent<Collectible>();
-                if (cubeCollectible != null)
+                Collectible cubeRotation = cube.GetComponent<Collectible>();
+                if (cubeRotation != null)
                 {
-                    cubeCollectible.beat = i;
-                    cubeCollectible.offset = spawnOffset;
-                    cubeCollectible.heightOffset = collectible.heightOffset;
+                    cubeRotation.beat = i;
+                    cubeRotation.offset = spawnOffset;
+                    cubeRotation.heightOffset = collectible.heightOffset;
+                    cubeRotation.transform.localRotation = pathCreator.path.GetRotationAtDistance(distance,currentVehicle.endOfPathInstruction) * Quaternion.Euler(cubeRotation.rotation); 
                 }
 
                 currentGroupSize++;
@@ -303,6 +312,7 @@ public class CollectibleCreator : MonoBehaviour
         public float offset;
         public float heightOffset;
         public Vector3 scale;
+        public Vector3 rotation; 
     }
 
     [System.Serializable]

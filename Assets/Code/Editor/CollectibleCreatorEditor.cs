@@ -32,6 +32,7 @@ public class CollectibleCreatorEditor : Editor
         myScript.beatsBetweenSpawn = EditorGUILayout.IntField("Beat gap between spawn", myScript.beatsBetweenSpawn);
         myScript.spawnGroupSize = EditorGUILayout.IntField("Spawn group size", myScript.spawnGroupSize);
         myScript.beatsBetweenGroup = EditorGUILayout.IntField("Beat gap between group", myScript.beatsBetweenGroup);
+        myScript.tmp = EditorGUILayout.Vector3Field("Beat gap between group", myScript.tmp);
         if (GUILayout.Button("Generate Random Path"))
         {
             myScript.GenerateRandomPath();

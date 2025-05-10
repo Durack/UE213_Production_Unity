@@ -1,0 +1,4 @@
+Miro : https://miro.com/app/board/uXjVKI8wmeU=/
+Trello : https://trello.com/b/vEC7gkcU/lastgroup
+Google sheet : https://docs.google.com/spreadsheets/d/1O0oNS8AtkdoCJdZxlDhIg-KaCEjTfZzbXyKFJVAHz5I/edit?gid=0#gid=0
+GitHub : https://github.com/Prismohs/UE213_Production_Unity

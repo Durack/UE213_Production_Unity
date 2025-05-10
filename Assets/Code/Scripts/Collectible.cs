@@ -8,6 +8,8 @@ public class Collectible : MonoBehaviour
     public Int32 beat;
     public float offset;
 
+    public Vector3 rotation;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -39,15 +41,35 @@ public class Collectible : MonoBehaviour
 #endif
 
     private void OnTriggerEnter(Collider other)
+{
+    if (other.CompareTag("Player"))
     {
-        if (other.CompareTag("Player"))
+        // Play particle effect on player
+        ParticleScript particleScript = other.GetComponent<ParticleScript>();
+        if (particleScript != null)
         {
-            Destroy(gameObject);
+            particleScript.PlayCollectibleParticle();
         }
+
+        // Add score
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.AddScore(1);
+        }
+
+        // Destroy collectible
+        Destroy(gameObject);
     }
+}
+
 }
 
 
 public enum CollectibleType { 
-    Cube
+    Cube,
+    MusicNote1,
+    MusicNote2,
+    MusicNote3,
+    MusicNote4
+
 };

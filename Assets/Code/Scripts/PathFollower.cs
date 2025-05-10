@@ -22,6 +22,10 @@ namespace PathCreation.Examples
 
         private float distanceTravelled;
         private float currentOffset;
+
+        private bool inputEnabled = true;
+
+
         private InputSystem_Actions controls;
 
         public void OnEnable()
@@ -41,8 +45,10 @@ namespace PathCreation.Examples
             controls.Vehicle.Disable();
         }
 
-        void InputSystem_Actions.IVehicleActions.OnLeft(InputAction.CallbackContext context)
+                void InputSystem_Actions.IVehicleActions.OnLeft(InputAction.CallbackContext context)
         {
+            if (!inputEnabled) return;
+
             if (context.started)
             {
                 float tempOffset = offset - widthOffset;
@@ -52,11 +58,25 @@ namespace PathCreation.Examples
 
         void InputSystem_Actions.IVehicleActions.OnRight(InputAction.CallbackContext context)
         {
+            if (!inputEnabled) return;
+
             if (context.started)
             {
                 float tempOffset = offset + widthOffset;
                 offset = Mathf.Min(tempOffset, widthOffset);
             }
+        }
+
+        public void DisableInput()
+            {
+                inputEnabled = false;
+            }
+
+
+        void InputSystem_Actions.IVehicleActions.OnTestInput(InputAction.CallbackContext context)
+        {
+            ParticleScript script = GetComponent<ParticleScript>();
+            script.PlayCollectibleParticle();
         }
 
         void Start()
@@ -90,7 +110,7 @@ namespace PathCreation.Examples
 
                 currentOffset = Mathf.MoveTowards(currentOffset, offset, Time.deltaTime * offsetSpeed);
 
-                transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction) + (transform.right * currentOffset) + (transform.up * heightOffset);
+                transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction) + (transform.right * currentOffset) + (transform.forward * heightOffset);
                 transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction) * Quaternion.Euler(vehiculeRotation.x, vehiculeRotation.y, vehiculeRotation.z);
 
             }
